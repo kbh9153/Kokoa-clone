@@ -8,8 +8,8 @@
 @import "./components/user-component.css";
 
 /* screens */
-@import "./sceens/login.css";
-@import "./sceens/friends.css";
+@import "./screens/login.css";
+@import "./screens/friends.css";
 
 body {
   color: #2e363e;
