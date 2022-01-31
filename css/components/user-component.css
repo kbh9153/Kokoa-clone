@@ -55,3 +55,11 @@
 .user-component:last-child .user-component__column:last-child div span {
   margin-right: 5px;
 }
+
+.user-component:first-child {
+  margin-bottom: 30px;
+}
+
+.user-component__column:first-child .user-component__title {
+  font-weight: 500;
+}
