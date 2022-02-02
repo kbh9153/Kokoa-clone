@@ -15,6 +15,12 @@
   margin-left: 25px;
 }
 
+.screen-header__icons .fa-cog {
+  position: relative;
+}
+
 .cog__dot {
   position: absolute;
+  right: 12px;
+  top: 58px;
 }
