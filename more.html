@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KokoaTalk - Friends</title>
+    <title>KokoaTalk - More</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -24,20 +24,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+        <div class="cog__dot dot"></div>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i><span>Friends's Names Display</span>
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends__screen">
+    <main class="main__screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -46,33 +44,55 @@
           />
           <div class="user_component__txet">
             <h4 class="user-component__title">Apple</h4>
-            <h6 class="user-component__subtitle">Macbook Pro</h6>
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-      </div>
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://www.reuters.com/resizer/W9uP4OoJ0aS19rQEYrA1_cKNrbg=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/O6SXYTO4WFPLJPIHA4VD4ABLAU.jpg"
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user_component__txet">
-            <h4 class="user-component__title">Channel</h4>
+            <h6 class="user-component__subtitle">
+              +82 10-1234-5678 <span>!</span>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>2</span>
-            <i class="fas fa-chevron-right"></i>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="more-icon-row__icon">
+          <i class="far fa-calendar-check fa-2x"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="more-icon-row__icon">
+          <i class="fab fa-google-drive fa-2x"></i>
+          <span>Talk Drive</span>
+          <div class="talk-drive__dot dot"></div>
+        </div>
+        <div class="more-icon-row__icon">
+          <i class="far fa-smile-wink fa-2x"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="more-icon-row__icon">
+          <i class="fas fa-brush fa-2x"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+
+      <div class="more-icon-row">
+        <div class="more-icon-row__icon">
+          <i class="far fa-user-circle fa-2x"></i>
+          <span>Account</span>
+        </div>
+        <div class="more-icon-row__icon">
+          <i class="far fa-comments fa-2x"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h6 class="more-suggestions__title">Suggestions</h6>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </div>
+            <span class="more-suggestions__text">Kokoa Story</span>
           </div>
         </div>
       </div>
@@ -82,7 +102,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

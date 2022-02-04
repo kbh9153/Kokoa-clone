@@ -1,0 +1,44 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+  margin-top: 20px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  margin-bottom: 30px;
+}
+
+.icon-row__icon:nth-child(2) i {
+  margin-bottom: 20px;
+}
+
+.icon-row__icon:nth-child(2) > span {
+  margin-bottom: 5px;
+}
+
+.more-icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-icon-row__icon i {
+  margin-bottom: 18px;
+}
+
+.more-icon-row {
+  display: flex;
+  padding: 0px 15px 0px 15px;
+  margin-top: 50px;
+}
+
+.more-icon-row .more-icon-row__icon:first-child {
+  margin-right: 55px;
+}
