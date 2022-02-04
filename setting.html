@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KokoaTalk - setting</title>
+    <title>KokoaTalk - Setting</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -23,9 +23,45 @@
       </div>
     </div>
 
-    <header class="screen-header"></header>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <div class="alt-header__title">Settings</div>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+      </div>
+    </header>
 
-    <main class="main__screen"></main>
+    <main class="main__screen">
+      <ul class="settings__list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn fa-lg"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask fa-lg"></i>
+            <span>Kokoa Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle fa-lg"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
