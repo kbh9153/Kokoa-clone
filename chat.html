@@ -25,7 +25,7 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
           <i class="fas fa-chevron-left fa-2x"></i>
         </a>
       </div>
@@ -38,7 +38,42 @@
       </div>
     </header>
 
-    <main class="main__screen"></main>
+    <main class="main__screen chat__screen">
+      <div class="chat__timestamp">Saturday, November 13, 2021</div>
+
+      <div class="message-row">
+        <img
+          src="https://www.reuters.com/resizer/W9uP4OoJ0aS19rQEYrA1_cKNrbg=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/O6SXYTO4WFPLJPIHA4VD4ABLAU.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">KokoaTalk</span>
+          <div class="message__info">
+            <span class="message__balloon">Congratulation!</span>
+            <span class="message__time">21:35</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__send">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__balloon">Thank you!</span>
+            <span class="message__time">21:57</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-2x"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
