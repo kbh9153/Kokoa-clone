@@ -95,3 +95,23 @@
 .open-post__heart i {
   margin-right: 5px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: red;
+    transform: none;
+  }
+  50% {
+    color: violet;
+    transform: scale(1.5);
+  }
+  100% {
+    color: red;
+    transform: none;
+  }
+}
+
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
